@@ -23,12 +23,12 @@ jobs:
   # path could publish a tree nothing had ever validated. It runs on Linux, off
   # the release Mac, so a ~35 minute gate does not eat the build job's budget.
   verify:
-    if: github.repository == 'johnnylibretexts-ai/libretexts-reader'
+    if: github.repository == 'johnnyrobot/libretexts-reader'
     uses: ./.github/workflows/verify.yml
 
   release:
     needs: verify
-    if: github.repository == 'johnnylibretexts-ai/libretexts-reader'
+    if: github.repository == 'johnnyrobot/libretexts-reader'
     runs-on: [self-hosted, macos, release]
     # 60 was too tight for what this job does: a cold `cargo build --release`
     # including ort's ~73MB ONNX Runtime fetch, then a second full Tauri build,

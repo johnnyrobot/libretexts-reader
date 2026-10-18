@@ -8,7 +8,7 @@ edition = "2021"
 rust-version = "1.88"
 authors = ["Johnny Phung"]
 license = "Apache-2.0"
-repository = "https://github.com/johnnylibretexts-ai/libretexts-reader"
+repository = "https://github.com/johnnyrobot/libretexts-reader"
 
 # Supertonic's inference path is numeric Rust -- ndarray tensor building, mask
 # construction, and the diffusion loop -- sitting between the ONNX calls.

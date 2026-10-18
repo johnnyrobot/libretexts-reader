@@ -228,7 +228,7 @@ ships.
 - ctor 0.8.0 — Apache-2.0 — https://github.com/mmastrac/rust-ctor
 - bytemuck 1.25.0 — Apache-2.0 — https://github.com/Lokathor/bytemuck
 - httpdate 1.0.3 — Apache-2.0 — https://github.com/pyfisch/httpdate
-- libretexts-reader 0.1.0-beta.5 — Apache-2.0 — https://github.com/johnnylibretexts-ai/libretexts-reader
+- libretexts-reader 0.1.0-beta.5 — Apache-2.0 — https://github.com/johnnyrobot/libretexts-reader
 - anyhow 1.0.102 — Apache-2.0 — https://github.com/dtolnay/anyhow
 - async-trait 0.1.92 — Apache-2.0 — https://github.com/dtolnay/async-trait
 - cxx 1.0.199 — Apache-2.0 — https://github.com/dtolnay/cxx

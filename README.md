@@ -31,7 +31,7 @@ speech synthesis under the same policy described below.
 
 ## Download
 
-**[Latest release](https://github.com/johnnylibretexts-ai/libretexts-reader/releases/latest)**
+**[Latest release](https://github.com/johnnyrobot/libretexts-reader/releases/latest)**
 — a signed and notarized `.dmg`.
 
 **Apple Silicon Macs only.** There is no Intel build and no Windows or Linux

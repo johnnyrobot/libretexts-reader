@@ -161,7 +161,7 @@ thing that proves the automated path produced what the manual path would have.
 A green workflow does not prove a stapled ticket.
 
 ```bash
-gh release download <TAG> --repo johnnylibretexts-ai/libretexts-reader --pattern '*.dmg'
+gh release download <TAG> --repo johnnyrobot/libretexts-reader --pattern '*.dmg'
 DMG="$(ls LibreTexts.Reader_*_aarch64.dmg | head -1)"
 
 xcrun stapler validate "$DMG"                                    # The validate action worked!
